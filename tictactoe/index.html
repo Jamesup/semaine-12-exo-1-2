@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>TicTacToe</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.min.js"></script> <!--lien vers le fichier jquery pour l'effet "hover"-->
+    <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+   
+  </head>
+  <body>
+   
+  <div id="tic-tac-toe">
+  <div class="new_span">
+    <div class="row">
+      <h1 class="jumbotron">Tic Tac Toe</h1>
+      
+        <div class="col-md-6">
+          <div class="well">
+            <span>Joueur 1 <p class="btn btn-success">O</p> à gagner </span><strong id="o_win" class="badge"> 0</strong><span class="add-on"> Fois</span>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="well">
+           <span>Joueur 2  <p class="btn btn-danger">X</p> à gagner </span><strong id="x_win" class="badge"> 0</strong><span class="add-on"> Fois</span>
+        </div>
+      </div>
+      
+
+
+
+    </div>
+    <ul class="row" id="jeu">
+      
+      <li id="one" class="btn btn-default" >+</li>
+      <li id="two" class="btn btn-default">+</li>
+      <li id="three" class="btn btn-default">+</li>
+      <li id="four" class="btn btn-default">+</li>
+      <li id="five" class="btn btn-default">+</li>
+      <li id="six" class="btn btn-default">+</li>
+      <li id="seven" class="btn btn-default">+</li>
+      <li id="eight" class="btn btn-default">+</li>
+      <li id="nine" class="btn btn-default">+</li>
+    </ul>
+    <div class="clr">&nbsp;</div>
+    <div class="row"><a href="#" id="reset" class="btn-success btn span3" >Nouveau Jeu</a></div></div>
+</div>
+   <script type="text/javascript" src="javascript.js"></script>
+  </body>
+</html>
